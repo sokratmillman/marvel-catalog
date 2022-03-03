@@ -1,0 +1,39 @@
+.Header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #FFE454;
+    padding: 0px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+a {
+    color: #FFE454;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation__item {
+    background-color: #342929;
+    margin: 0px 10px;
+}
+
